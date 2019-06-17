@@ -3,7 +3,7 @@ Speaker diarization using Deep Attention Model embeddings and metric learning. T
 
 See the diagram below for a summary of the approach.
 
-<img src="./approach.pdf" width="500">
+![Metric Learning Pipeline](approach.pdf)
 
 ## Requirements
 * python 3.6
@@ -39,7 +39,7 @@ Optionally build the train subset and development set with ```generate_ted_subse
 Specify processing steps in ```process_callhome.py``` and execute the same to obtain the MFCC segments.
 
 ### Model training
-## To specify the paths, network and training configurations,sampling type, type of loss, margin and other parameters,modify:
+To specify the paths, network and training configurations,sampling type, type of loss, margin and other parameters,modify:
 ```
 hyperparams.py
 ```
