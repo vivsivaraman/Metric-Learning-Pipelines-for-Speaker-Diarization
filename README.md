@@ -60,3 +60,32 @@ Execute ```run_diarization.py``` which stores the Diarization Error Rates in a .
 We provide pre-extracted embeddings along with needed data for the English language corpus from the CALLHOME dataset located in CALLHOME/.  It can be used to execute ```run_diarization.py``` to obtain the DERs.
 
 
+## Citations
+
+Our papers are cited as:
+
+```
+@INPROCEEDINGS{narayanaswamyspd,
+author={V. S. {Narayanaswamy} and J. J. {Thiagarajan} and H. {Song} and A. {Spanias}},
+booktitle={ICASSP 2019 - 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+title={Designing an Effective Metric Learning Pipeline for Speaker Diarization},
+year={2019},
+volume={},
+number={},
+pages={5806-5810}
+}
+
+@inproceedings{Song2018,
+  author={Huan Song and Megan Willi and Jayaraman J. Thiagarajan and Visar Berisha and Andreas Spanias},
+  title={Triplet Network with Attention for Speaker Diarization},
+  year=2018,
+  booktitle={Proc. Interspeech 2018},
+  pages={3608--3612},
+  doi={10.21437/Interspeech.2018-2305},
+  url={http://dx.doi.org/10.21437/Interspeech.2018-2305}
+}
+```
+
+
+
+```
