@@ -1,0 +1,10 @@
+python==3.6.5
+numpy==1.15.4
+tensorflow-gpu==1.8.0
+scikit-learn==0.19.2
+matplotlib==2.2.2
+pyannote.core >= 1.3.1
+pyannote.metrics >= 1.6.1
+python-speech-features >= 0.6
+sox >= 1.3.2
+h5py >= 2.6.0
