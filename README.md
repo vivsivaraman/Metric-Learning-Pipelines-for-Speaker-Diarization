@@ -3,7 +3,7 @@ Speaker diarization using Deep Attention Model embeddings and metric learning. T
 
 See the diagram below for a summary of the approach.
 
-![Metric Learning Pipeline](./approach.pdf)
+![Metric Learning Pipeline](https://github.com/vivsivaraman/Metric-Learning-Pipelines-for-Speaker-Diarization/blob/master/approach.pdf)
 
 ## Requirements
 * python 3.6
@@ -23,7 +23,7 @@ The CALLHome conversational speech corpus for testing is available at https://me
 
 The required libraries can be installed using pip install -r requirements.txt
 
-The corpora directory needs to be in the folder 
+The corpora directory needs to be in the folder
 ```
 /Data
 ```
@@ -52,7 +52,7 @@ First extract the embeddings from the trained model with
 ```run_testembeddings.py``` evaluated at the checkpoint of the least validation loss (dev_history.csv).
 
 To perform diarization clustering:
-Execute ```run_diarization.py``` which stores the Diarization Error Rates in a .csv file. 
+Execute ```run_diarization.py``` which stores the Diarization Error Rates in a .csv file.
 
 
 ### Run the demo
