@@ -3,7 +3,7 @@ Speaker diarization using Deep Attention Model embeddings and metric learning. T
 
 See the diagram below for a summary of the approach.
 
-![Metric Learning Pipeline](https://github.com/vivsivaraman/Metric-Learning-Pipelines-for-Speaker-Diarization/blob/master/refine.png)
+![Metric Learning Pipeline](https://github.com/vivsivaraman/Metric-Learning-Pipelines-for-Speaker-Diarization/blob/master/approach.png)
 
 ## Requirements
 * python 3.6
