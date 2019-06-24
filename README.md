@@ -57,7 +57,7 @@ Execute ```run_diarization.py``` which stores the Diarization Error Rates in a .
 
 ### Run the demo
 
-We provide pre-extracted embeddings along with needed data for the English language corpus from the CALLHOME dataset located in CALLHOME/.  It can be used to execute ```run_diarization.py``` to obtain the DERs.
+Download the pre-extracted embeddings for the English language corpus from the CALLHOME dataset located in Data.tar CALLHOME folder.  It can be used to execute ```run_diarization.py``` to obtain the DERs.
 
 
 ## Citations
