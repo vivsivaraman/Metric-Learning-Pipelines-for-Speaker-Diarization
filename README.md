@@ -30,15 +30,15 @@ The corpora directory needs to be in the folder
 
 Download the vbs_demo package from https://www.voicebiometry.org/download/vbs_demo.tgz and put in current directory.
 
-### Data preprocessing
-## TEDLIUM Corpus
+## Data preprocessing
+### TEDLIUM Corpus
 Specify processing steps in ```process_ted.py``` and execute the same to obtain the MFCC segments for every recording.
 
 Optionally build the train subset and development set with ```generate_ted_subset.py``` by specifying the respective paths.
-## CALLHOME Corpus
+### CALLHOME Corpus
 Specify processing steps in ```process_callhome.py``` and execute the same to obtain the MFCC segments.
 
-### Model training
+### Model training parameters
 To specify the paths, network and training configurations,sampling type, type of loss, margin and other parameters,modify:
 ```
 hyperparams.py
@@ -47,7 +47,7 @@ hyperparams.py
 
 Run ```run_metriclearn.py``` which saves the models evaluated at different steps in the log dir. The code also provides the list of training losses at every global step
 
-### Testing and Obtaining Diarization Metrics
+## Testing and Obtaining Diarization Metrics
 First extract the embeddings from the trained model with
 ```run_testembeddings.py``` evaluated at the checkpoint of the least validation loss (dev_history.csv).
 
@@ -66,13 +66,13 @@ Our papers are cited as:
 
 ```
 @INPROCEEDINGS{narayanaswamyspd,
-author={V. S. {Narayanaswamy} and J. J. {Thiagarajan} and H. {Song} and A. {Spanias}},
-booktitle={ICASSP 2019 - 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-title={Designing an Effective Metric Learning Pipeline for Speaker Diarization},
-year={2019},
-volume={},
-number={},
-pages={5806-5810}
+  author={V. S. {Narayanaswamy} and J. J. {Thiagarajan} and H. {Song} and A. {Spanias}},
+  booktitle={ICASSP 2019 - 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  title={Designing an Effective Metric Learning Pipeline for Speaker Diarization},
+  year={2019},
+  volume={},
+  number={},
+  pages={5806-5810}
 }
 
 @inproceedings{Song2018,
